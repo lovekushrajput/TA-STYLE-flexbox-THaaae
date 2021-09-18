@@ -1,0 +1,142 @@
+/* http://meyerweb.com/eric/tools/css/reset/ */
+/* v1.0 | 20080212 */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+	text-decoration: none;
+}
+del {
+	text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* custom */
+.container{
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+/* header */
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(34,41,70);
+    padding: 10px;
+    width: 100%;
+}
+.logo{
+    margin-left: 20px;
+}
+.logo img{
+    width: 100px;
+
+
+}
+.nav a{
+    font-size: 18px;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-right: 35px;
+}
+.green{
+    color: rgb(55,182,103);
+}
+.white{
+    color: white;
+}
+/* section-gallery */
+.heading{
+    color: rgb(82,23,23);
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 70px;
+    padding-bottom: 40px;
+}
+.gallery{
+    display: flex;
+    justify-content: space-around;
+}
+.col1{
+    width: 30%;
+   
+}
+.col1 img{
+    height: 230px;
+}
+.gallery2{
+    display: flex;
+    justify-content: space-around;
+}
+.col3{
+    width: 30%;
+    padding: 30px 0;
+}
+.col3 img{
+    height: 220px;
+}
+
+
+.section img{
+    width: 100%;
+}
+/* footer */
+footer{
+    background-color: rgb(34,41,70);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(167,172,191);
+    height: 65px;
+    font-size: 20px;
+}
+footer p{
+    margin-left: 20px;
+}
+.icon a{
+    color: rgb(167,172,191);
+    margin-right: 20px;
+}
+
